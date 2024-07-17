@@ -1,0 +1,118 @@
+{"time":"2024-07-16T12:45:50.068547822+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8081"}
+{"time":"2024-07-16T13:33:34.98425418+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8081"}
+{"time":"2024-07-16T13:34:32.175616871+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:35:43.512303421+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:42:31.000705824+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:42:31.001245913+05:00","level":"ERROR","msg":"Routerni run qilishda xatolik beryapti","error":"listen tcp :8080: bind: address already in use"}
+{"time":"2024-07-16T13:42:47.765220756+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:46:31.716849179+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-16T13:46:31.727213341+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-16T13:46:31.727420879+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T13:48:38.768503196+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:48:42.143397084+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-16T13:48:42.147320492+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-16T13:48:42.147458259+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T13:49:27.099895807+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-16T13:49:27.104092346+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-16T13:49:27.104156292+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T13:50:07.288691705+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-16T13:50:07.293721632+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-16T13:50:07.293793447+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T13:50:49.833980896+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-16T13:50:49.840285601+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T13:51:10.603216068+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T13:57:12.288910281+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-16T13:57:12.295608324+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T14:08:04.869933385+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T14:09:57.513175566+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/users/profile"}
+{"time":"2024-07-16T14:09:57.518068433+05:00","level":"ERROR","msg":"Error in updated user","error":"rpc error: code = Unknown desc = pq: got 4 parameters but the statement requires 3"}
+{"time":"2024-07-16T14:09:57.518183037+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T14:11:31.458002022+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/users/profile"}
+{"time":"2024-07-16T14:11:31.471151925+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T14:16:58.442609264+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/"}
+{"time":"2024-07-16T14:16:58.443020427+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini yaratishda","error":"failed to exit idle mode: dns resolver: missing port after port-separator colon"}
+{"time":"2024-07-16T14:16:58.443143922+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T14:49:25.956785111+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/"}
+{"time":"2024-07-16T14:49:25.956908196+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini yaratishda","error":"failed to exit idle mode: dns resolver: missing port after port-separator colon"}
+{"time":"2024-07-16T14:49:25.956931566+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T14:51:45.67832573+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8081"}
+{"time":"2024-07-16T14:51:45.678659167+05:00","level":"ERROR","msg":"Routerni run qilishda xatolik beryapti","error":"listen tcp :8081: bind: address already in use"}
+{"time":"2024-07-16T14:52:14.553270904+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T14:52:23.84502949+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/"}
+{"time":"2024-07-16T14:52:23.846766584+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini yaratishda","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-16T14:52:23.846823048+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:10:55.858193272+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T15:11:38.084727681+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/"}
+{"time":"2024-07-16T15:11:38.10054993+05:00","level":"INFO","msg":"Response sent","status":201}
+{"time":"2024-07-16T15:13:46.2190568+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938"}
+{"time":"2024-07-16T15:13:46.219142538+05:00","level":"INFO","msg":"Response sent","status":404}
+{"time":"2024-07-16T15:15:20.1427164+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-16T15:15:23.796420976+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938"}
+{"time":"2024-07-16T15:15:23.798624929+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini olishda","error":"rpc error: code = Unknown desc = pq: column \"uptadet_at\" does not exist"}
+{"time":"2024-07-16T15:15:23.798689508+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:17:19.142231766+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938"}
+{"time":"2024-07-16T15:17:19.144490812+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini olishda","error":"rpc error: code = Unknown desc = pq: column \"uptated_at\" does not exist"}
+{"time":"2024-07-16T15:17:19.144562967+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:17:42.819182798+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938"}
+{"time":"2024-07-16T15:17:42.82217879+05:00","level":"ERROR","msg":"xatolik sayohat hikoyasini olishda","error":"rpc error: code = Unknown desc = failed to exit idle mode: dns resolver: missing port after port-separator colon"}
+{"time":"2024-07-16T15:17:42.822322941+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:31:45.520913227+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/"}
+{"time":"2024-07-16T15:31:45.532384678+05:00","level":"INFO","msg":"Response sent","status":201}
+{"time":"2024-07-16T15:33:13.622235363+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-07-16T15:33:13.625025001+05:00","level":"ERROR","msg":"xatolik sayohat hikoyalarini ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: operator does not exist: & integer"}
+{"time":"2024-07-16T15:33:13.625109259+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:34:56.240415552+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-07-16T15:34:56.243149493+05:00","level":"ERROR","msg":"xatolik sayohat hikoyalarini ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-16T15:34:56.243221001+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:35:50.457900578+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/stories/{storyId}"}
+{"time":"2024-07-16T15:35:50.460160687+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T15:38:11.544551492+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/{storyId}/comments"}
+{"time":"2024-07-16T15:38:11.554054084+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T15:38:49.132657327+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938/comments"}
+{"time":"2024-07-16T15:38:49.133687848+05:00","level":"ERROR","msg":"xatolik izohlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: column reference \"id\" is ambiguous"}
+{"time":"2024-07-16T15:38:49.133741306+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:44:01.613139435+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938/comments"}
+{"time":"2024-07-16T15:44:01.614912458+05:00","level":"ERROR","msg":"xatolik izohlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: relation \"authors\" does not exist"}
+{"time":"2024-07-16T15:44:01.614960895+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:46:03.378596887+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938/comments"}
+{"time":"2024-07-16T15:46:03.380408886+05:00","level":"ERROR","msg":"xatolik izohlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"FROM\""}
+{"time":"2024-07-16T15:46:03.380462814+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T15:47:42.802703404+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/be1846e9-5938-41c0-a266-017e4abef938/comments"}
+{"time":"2024-07-16T15:47:42.816478244+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T15:48:24.115688321+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/stories/{storyId}/like"}
+{"time":"2024-07-16T15:48:24.123894503+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T15:49:27.390846489+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/traveltips"}
+{"time":"2024-07-16T15:49:27.390887459+05:00","level":"INFO","msg":"Response sent","status":404}
+{"time":"2024-07-16T15:55:30.043866262+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/messages/"}
+{"time":"2024-07-16T15:55:30.045407665+05:00","level":"ERROR","msg":"xatolik xabarni yuborishda","error":"rpc error: code = Unimplemented desc = unknown service user_communication.CommunicationService"}
+{"time":"2024-07-16T15:55:30.045459825+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:05:11.111230571+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/messages/"}
+{"time":"2024-07-16T16:05:11.123417861+05:00","level":"INFO","msg":"Response sent","status":201}
+{"time":"2024-07-16T16:09:12.70212654+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-16T16:09:12.706227062+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T16:13:45.960751276+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/itineraries/"}
+{"time":"2024-07-16T16:13:45.963346582+05:00","level":"ERROR","msg":"xatolik marshrutni yaratishda","error":"rpc error: code = Unknown desc = pq: column \"athor_id\" of relation \"itineraries\" does not exist"}
+{"time":"2024-07-16T16:13:45.963410126+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:15:55.961636005+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/itineraries/"}
+{"time":"2024-07-16T16:15:55.972691873+05:00","level":"INFO","msg":"Response sent","status":201}
+{"time":"2024-07-16T16:16:26.337878082+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-07-16T16:16:26.341400832+05:00","level":"ERROR","msg":"xatolik marshrutlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-16T16:16:26.341457408+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:20:23.130874798+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/6bcf996e-4013-445f-a0ef-1ffe61bd7e86"}
+{"time":"2024-07-16T16:20:23.131866909+05:00","level":"ERROR","msg":"xatolik marshrutni olishda","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"id\""}
+{"time":"2024-07-16T16:20:23.131904548+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:22:45.265238333+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/6bcf996e-4013-445f-a0ef-1ffe61bd7e86"}
+{"time":"2024-07-16T16:22:45.269945405+05:00","level":"ERROR","msg":"xatolik marshrutni olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-16T16:22:45.269993024+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:24:29.757790259+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/6bcf996e-4013-445f-a0ef-1ffe61bd7e86"}
+{"time":"2024-07-16T16:24:29.765929616+05:00","level":"ERROR","msg":"xatolik marshrutni olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-16T16:24:29.766027039+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:26:59.851966836+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/6bcf996e-4013-445f-a0ef-1ffe61bd7e86"}
+{"time":"2024-07-16T16:26:59.86525284+05:00","level":"ERROR","msg":"xatolik marshrutni olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-16T16:26:59.865341367+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:29:42.91220112+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/itineraries/{itineraryId}"}
+{"time":"2024-07-16T16:29:42.915121655+05:00","level":"ERROR","msg":"xatolik marshrutni yangilashda","error":"rpc error: code = Unknown desc = pq: syntax error at or near \",\""}
+{"time":"2024-07-16T16:29:42.915195901+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-16T16:39:03.676372393+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/itineraries/{itineraryId}"}
+{"time":"2024-07-16T16:39:03.68220771+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-16T17:01:01.015037067+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
