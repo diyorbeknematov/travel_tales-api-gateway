@@ -52,7 +52,7 @@ func (s *serviceManager) TravelDestinationService() destination.TravelDestinatio
 func NewServiceManager(conf *config.Config) (IServiceManager, error) {
 
 	connUser, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%d", conf.USER_SERVICE_PORT),
+		fmt.Sprintf("localhost:%s", conf.USER_SERVICE_PORT),
 		grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		return nil, err

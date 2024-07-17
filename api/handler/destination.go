@@ -16,7 +16,8 @@ import (
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
-// @Param userId query string true "User ID"
+// @Param page query int fale "Page number"
+// @Param limit query int false "Page limit"
 // @Success 200 {object} destination.ListDetinationResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
@@ -98,12 +99,29 @@ func (h *Handler) GetTravelDestination(ctx *gin.Context) {
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
+// @Param Top query int false "Top Destination"
 // @Success 200 {object} destination.GetTrendDestinationResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
 // @Router /api/v1/destinations/trending [get]
 func (h *Handler) GetTrendDestinations(ctx *gin.Context) {
 	req := &destination.GetTrendDestinationRequest{}
+
+	topStr := ctx.Query("Top")
+
+	if topStr != "" {
+		page, err := strconv.Atoi(topStr)
+		if err != nil {
+			h.Logger.Error("Error converting page to int", slog.String("error", err.Error()))
+			ctx.JSON(http.StatusBadRequest, models.Errors{
+				Message: "Error parsing page from string to int",
+			})
+			return
+		}
+		req.Limit = int32(page)
+	} else {
+		req.Limit = 10
+	}
 
 	resp, err := h.DestinationClient.GetTrendDestinations(ctx, req)
 	if err != nil {

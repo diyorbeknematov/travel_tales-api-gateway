@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"api-gateway/generated/stories"
 	"api-gateway/generated/user"
 	"api-gateway/models"
 	"log/slog"
@@ -94,8 +95,8 @@ func (h *Handler) UpdateUserProfileHandle(ctx *gin.Context) {
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
-// @Param page query int true "Page number"
-// @Param limit query int true "Page limit"
+// @Param page query int false "Page number"
+// @Param limit query int false "Page limit"
 // @Success 200 {object} user.ListUsersResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
@@ -198,6 +199,35 @@ func (h *Handler) GetUserActivity(ctx *gin.Context) {
 		return
 	}
 
+	comment, err := h.StoriesClient.CountComments(ctx, &stories.CountCommentsRequest{UserId: userId})
+	if err != nil {
+		h.Logger.Error("xatolik userning hikoyalariga yozilgan commentlar sonini olishda", slog.String("error", err.Error()))
+		ctx.JSON(http.StatusInternalServerError, models.Errors{
+			Message: err.Error(),
+		})
+		return
+	}
+	like, err := h.StoriesClient.CountLikes(ctx, &stories.CountLikesRequest{UserId: userId})
+	if err != nil {
+		h.Logger.Error("xatolik userning hikoyalariga bosilgan likelar sonini olishda", slog.String("error", err.Error()))
+		ctx.JSON(http.StatusInternalServerError, models.Errors{
+			Message: err.Error(),
+		})
+		return
+	}
+	story, err := h.StoriesClient.CountStories(ctx, &stories.CountStoriesRequest{UserId: userId})
+
+	if err != nil {
+		h.Logger.Error("xatolik userning hikoyalari sonini olishda", slog.String("error", err.Error()))
+		ctx.JSON(http.StatusInternalServerError, models.Errors{
+			Message: err.Error(),
+		})
+		return
+	}
+	resp.CommentsCount = comment.CountComments
+	resp.LikesReceived = like.CountLikes
+	resp.StoriesCount = story.CountStories
+
 	ctx.JSON(http.StatusOK, resp)
 }
 
@@ -280,8 +310,9 @@ func (h *Handler) ListFollowers(ctx *gin.Context) {
 	} else {
 		req.Limit = 10
 	}
+	req.UserId = userId
+	resp, err := h.UserClient.ListFollowers(ctx, &req)
 
-	resp, err := h.UserClient.ListFollowers(ctx, &user.ListFollowersRequest{UserId: userId})
 	if err != nil {
 		h.Logger.Error("Error listing followers", slog.String("error", err.Error()))
 		ctx.JSON(http.StatusInternalServerError, models.Errors{

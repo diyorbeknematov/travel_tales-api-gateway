@@ -108,8 +108,8 @@ func (h *Handler) DeleteItinerary(ctx *gin.Context) {
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
-// @Param page query int true "Page number"
-// @Param limit query int true "Page limit"
+// @Param page query int false "Page number"
+// @Param limit query int false "Page limit"
 // @Success 200 {object} itineraries.ListItinerariesResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors

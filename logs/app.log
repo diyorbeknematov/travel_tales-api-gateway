@@ -116,3 +116,225 @@
 {"time":"2024-07-16T16:39:03.676372393+05:00","level":"INFO","msg":"Request received","method":"PUT","path":"/api/v1/itineraries/{itineraryId}"}
 {"time":"2024-07-16T16:39:03.68220771+05:00","level":"INFO","msg":"Response sent","status":200}
 {"time":"2024-07-16T17:01:01.015037067+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:26:47.507719532+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:29:20.535549221+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:29:20.539320017+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:29:20.539450306+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T15:31:42.382694112+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:31:55.681706438+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:31:55.68547125+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:31:55.685605867+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T15:35:10.957892871+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:35:10.960480076+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:35:10.96058187+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T15:35:46.128154705+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:35:46.130386954+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:35:46.13047408+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T15:39:50.039505355+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:40:00.043394666+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:40:00.046843314+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:40:00.046966288+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T15:46:42.914475918+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:47:36.178991865+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:47:41.001881375+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:47:41.002002634+05:00","level":"INFO","msg":"Response sent","status":502}
+{"time":"2024-07-17T15:48:58.541259296+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:48:58.541354944+05:00","level":"INFO","msg":"Response sent","status":502}
+{"time":"2024-07-17T15:50:51.875975833+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T15:50:56.04419192+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T15:50:56.047732755+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unimplemented desc = method GetTrendDestinations not implemented"}
+{"time":"2024-07-17T15:50:56.048011099+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:00:01.685384276+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:00:06.403039196+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T16:00:06.411885272+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unavailable desc = error reading from server: EOF"}
+{"time":"2024-07-17T16:00:06.412015562+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:01:32.759851587+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T16:01:32.787139894+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:05:42.596969778+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:06:39.177314719+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:06:55.529003567+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/"}
+{"time":"2024-07-17T16:06:55.541541987+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:08:17.146162317+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/a068856b-f64a-4e68-8a3c-e37769bc760a"}
+{"time":"2024-07-17T16:08:17.154072716+05:00","level":"ERROR","msg":"xatolik sayohat manzilini olishda","error":"rpc error: code = Unknown desc = sql: expected 8 destination arguments in Scan, not 9"}
+{"time":"2024-07-17T16:08:17.154239517+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:09:48.64408995+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/a068856b-f64a-4e68-8a3c-e37769bc760a"}
+{"time":"2024-07-17T16:09:48.651744947+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:11:36.529089194+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/a068856b-f64a-4e68-8a3c-e37769bc760a"}
+{"time":"2024-07-17T16:11:36.536735499+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:14:19.473152058+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:14:43.698638428+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:15:09.56735688+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-07-17T16:15:09.584363222+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:15:26.535797141+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T16:15:26.543336186+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T16:15:26.543538221+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:18:14.50759449+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-07-17T16:18:14.513852898+05:00","level":"ERROR","msg":"xatolik sayohat hikoyalarini ro'yxatlashda","error":"rpc error: code = Unknown desc = pq: syntax error at or near \"deleted_at\""}
+{"time":"2024-07-17T16:18:14.513942046+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:25:05.848254653+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-07-17T16:25:05.859850864+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:28:24.315792607+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:28:24.31755661+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:28:24.317663119+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:30:11.551279388+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:30:11.55143526+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:30:11.551468866+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:31:17.452095139+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:31:17.452283801+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:31:17.452365711+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:31:59.828115596+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:31:59.828263791+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:31:59.828296928+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:33:53.748479109+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:34:23.450688519+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:34:23.454615994+05:00","level":"ERROR","msg":"Error in get list users","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:34:23.454764112+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:35:55.846185618+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:35:55.846906428+05:00","level":"ERROR","msg":"Error in get user profile","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:35:55.846986102+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:37:22.226452096+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:37:30.910791157+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:37:30.913260954+05:00","level":"ERROR","msg":"Error in get user profile","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:37:30.91339714+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:38:48.56594073+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:40:22.726673042+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:40:22.72930679+05:00","level":"ERROR","msg":"Error in get user profile","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:0: connect: connection refused\""}
+{"time":"2024-07-17T16:40:22.729426349+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:42:45.892439741+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:42:48.886699773+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:42:48.890122624+05:00","level":"ERROR","msg":"Error in get user profile","error":"rpc error: code = Unimplemented desc = unknown service auth_service.AuthService"}
+{"time":"2024-07-17T16:42:48.890295676+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:44:11.325812948+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:44:13.679687486+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:44:13.683065788+05:00","level":"ERROR","msg":"Error in get user profile","error":"rpc error: code = Unimplemented desc = unknown service auth_service.AuthService"}
+{"time":"2024-07-17T16:44:13.68319481+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T16:45:24.940871032+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:45:27.387016278+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-07-17T16:45:27.392396748+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:45:32.671226056+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-07-17T16:45:32.681992702+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:46:33.411899407+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/activity"}
+{"time":"2024-07-17T16:46:33.4232661+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:47:23.484171662+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T16:47:23.491881118+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:54:41.388103797+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T16:54:44.171384894+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T16:54:44.180684842+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:57:43.280480604+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T16:57:43.287873429+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:58:13.794927551+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T16:58:13.803318366+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T16:59:12.085708397+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T16:59:12.092955247+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:01:56.168252206+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:01:56.174448588+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:03:28.160726802+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:03:28.167905387+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:04:14.640118435+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:04:14.647787071+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:04:55.581324828+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:04:55.589558559+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:05:36.910136363+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:05:40.92801179+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:05:40.934406164+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:06:53.077471551+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:06:53.078128679+05:00","level":"ERROR","msg":"Routerni run qilishda xatolik beryapti","error":"listen tcp :8080: bind: address already in use"}
+{"time":"2024-07-17T17:06:59.898349396+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:07:02.867704941+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:07:02.873897964+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:09:13.018830945+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:09:17.105792875+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T17:09:17.11487498+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:10:45.326368198+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:10:48.273154729+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/activity"}
+{"time":"2024-07-17T17:10:48.284605751+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:11:22.448974358+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:11:26.205172341+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/activity"}
+{"time":"2024-07-17T17:11:26.217015856+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T17:14:53.137978162+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:15:59.560347145+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/statistics"}
+{"time":"2024-07-17T17:15:59.560426611+05:00","level":"INFO","msg":"Response sent","status":404}
+{"time":"2024-07-17T17:17:25.242746889+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:18:47.548184838+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T17:19:23.811313998+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/statics"}
+{"time":"2024-07-17T17:19:23.823532739+05:00","level":"ERROR","msg":"xatolik foydalanuvchi statistikasini olishda","error":"rpc error: code = Unknown desc = pq: column reference \"id\" is ambiguous"}
+{"time":"2024-07-17T17:19:23.823661229+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T17:24:08.074419138+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/statics"}
+{"time":"2024-07-17T17:24:08.089538103+05:00","level":"ERROR","msg":"xatolik foydalanuvchi statistikasini olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T17:24:08.089625711+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:36:21.222189397+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T18:37:01.395223074+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/activity"}
+{"time":"2024-07-17T18:37:01.409992582+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T18:37:09.924238654+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/statics"}
+{"time":"2024-07-17T18:37:09.931815378+05:00","level":"ERROR","msg":"xatolik foydalanuvchi statistikasini olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:37:09.931951501+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:37:58.562303787+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/975799c4-bd72-43c8-b0c5-93bd9461e033/statics"}
+{"time":"2024-07-17T18:37:58.568096504+05:00","level":"ERROR","msg":"xatolik foydalanuvchi statistikasini olishda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:37:58.568176529+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:44:54.855330761+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/"}
+{"time":"2024-07-17T18:44:54.868486205+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T18:45:30.325262053+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T18:45:30.329939799+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T18:45:57.688737931+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/003ef694-e888-4ab5-8702-e558d6f12d8d"}
+{"time":"2024-07-17T18:45:57.692742794+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T18:48:06.341480197+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-07-17T18:48:06.351894165+05:00","level":"ERROR","msg":"xatolik marshrutlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:48:06.351984945+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:49:14.976619806+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T18:49:14.981929163+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:49:14.982008379+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:52:02.465864765+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T18:52:02.470206538+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:52:02.470314951+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T18:57:32.983696149+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-07-17T18:57:32.996209805+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T18:58:50.260291356+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T18:58:50.270423785+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T18:58:50.270518508+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:02:03.038350866+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T19:02:03.042280913+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T19:02:03.042382193+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:09:59.478588472+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T19:10:29.909911678+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/travel-tips/{tipId}"}
+{"time":"2024-07-17T19:10:29.910027458+05:00","level":"INFO","msg":"Response sent","status":404}
+{"time":"2024-07-17T19:12:20.329372206+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-17T19:13:03.832001994+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/travel-tips/"}
+{"time":"2024-07-17T19:13:03.847122712+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:13:33.074085448+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:13:33.078630222+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:14:08.157350997+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:14:08.158568983+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:14:30.091245712+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T19:14:30.095830823+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T19:14:30.096033938+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:15:16.775673706+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/9b0cf2c8-308c-4896-a737-511bff1bb991/followers"}
+{"time":"2024-07-17T19:15:16.781034719+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:19:46.527610644+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-07-17T19:19:46.539040977+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:20:11.357275309+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/"}
+{"time":"2024-07-17T19:20:11.365386477+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:20:35.788872191+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/messages/"}
+{"time":"2024-07-17T19:20:35.795636516+05:00","level":"ERROR","msg":"xatolik xabarlarni ro'yxatlashda","error":"rpc error: code = Unknown desc = sql: no rows in result set"}
+{"time":"2024-07-17T19:20:35.795746679+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:20:46.619858787+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-07-17T19:20:46.62699497+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:27:43.859771399+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:27:43.863796425+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:29:54.5286088+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:29:54.532679372+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:30:58.2192102+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:30:58.223400577+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:32:00.923100007+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:32:00.924256747+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:32:47.69188229+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:32:47.695402022+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:38:42.339696606+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:38:42.340646368+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-17T19:38:42.341118484+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:39:39.425434659+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:39:39.425567041+05:00","level":"ERROR","msg":"xatolik trend sayohat manzillarini olishda","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-07-17T19:39:39.425605257+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-07-17T19:40:26.541593862+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:40:26.548935695+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-17T19:42:11.599604155+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-17T19:42:11.608989891+05:00","level":"INFO","msg":"Response sent","status":200}

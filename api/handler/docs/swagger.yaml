@@ -313,7 +313,9 @@ definitions:
       description:
         type: string
       destinations:
-        $ref: '#/definitions/itineraries.Destination'
+        items:
+          $ref: '#/definitions/itineraries.Destination'
+        type: array
       end_date:
         type: string
       id:
@@ -348,14 +350,16 @@ definitions:
     type: object
   itineraries.LeaveCommentRequest:
     properties:
+      author_id:
+        type: string
       content:
         type: string
-      id:
+      itinerary_id:
         type: string
     type: object
   itineraries.LeaveCommentResponse:
     properties:
-      athor_id:
+      author_id:
         type: string
       content:
         type: string
@@ -749,11 +753,14 @@ paths:
       - application/json
       description: List all Travel Destinations
       parameters:
-      - description: User ID
+      - description: Page number
         in: query
-        name: userId
-        required: true
-        type: string
+        name: page
+        type: integer
+      - description: Page limit
+        in: query
+        name: limit
+        type: integer
       produces:
       - application/json
       responses:
@@ -810,6 +817,11 @@ paths:
       consumes:
       - application/json
       description: Get trending Travel Destinations
+      parameters:
+      - description: Top Destination
+        in: query
+        name: Top
+        type: integer
       produces:
       - application/json
       responses:
@@ -839,12 +851,10 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       produces:
       - application/json
@@ -1030,12 +1040,10 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       produces:
       - application/json
@@ -1097,12 +1105,10 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       produces:
       - application/json
@@ -1261,12 +1267,10 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       produces:
       - application/json
@@ -1351,7 +1355,7 @@ paths:
       summary: Add Like to Travel Story
       tags:
       - Stories
-  /api/v1/traveltips:
+  /api/v1/travel-tips:
     post:
       consumes:
       - application/json
@@ -1383,7 +1387,7 @@ paths:
       summary: Add Travel Tips
       tags:
       - TravelTips
-  /api/v1/traveltips/{tipId}:
+  /api/v1/travel-tips/:
     get:
       consumes:
       - application/json
@@ -1392,18 +1396,16 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       - description: Category
         in: query
         name: category
         required: true
-        type: integer
+        type: string
       produces:
       - application/json
       responses:
@@ -1433,12 +1435,10 @@ paths:
       - description: Page number
         in: query
         name: page
-        required: true
         type: integer
       - description: Page limit
         in: query
         name: limit
-        required: true
         type: integer
       produces:
       - application/json
@@ -1584,7 +1584,7 @@ paths:
       summary: List followers
       tags:
       - User
-  /api/v1/users/{userId}/statistics:
+  /api/v1/users/{userId}/statics:
     get:
       consumes:
       - application/json

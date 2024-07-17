@@ -35,11 +35,16 @@ const docTemplate = `{
                 "summary": "List Travel Destinations",
                 "parameters": [
                     {
-                        "type": "string",
-                        "description": "User ID",
-                        "name": "userId",
-                        "in": "query",
-                        "required": true
+                        "type": "integer",
+                        "description": "Page number",
+                        "name": "page",
+                        "in": "query"
+                    },
+                    {
+                        "type": "integer",
+                        "description": "Page limit",
+                        "name": "limit",
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -82,6 +87,14 @@ const docTemplate = `{
                     "Destinations"
                 ],
                 "summary": "Get Trend Travel Destinations",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "Top Destination",
+                        "name": "Top",
+                        "in": "query"
+                    }
+                ],
                 "responses": {
                     "200": {
                         "description": "OK",
@@ -176,15 +189,13 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -477,15 +488,13 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -582,15 +591,13 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -839,15 +846,13 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -972,7 +977,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/traveltips": {
+        "/api/v1/travel-tips": {
             "post": {
                 "security": [
                     {
@@ -1023,7 +1028,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/traveltips/{tipId}": {
+        "/api/v1/travel-tips/": {
             "get": {
                 "security": [
                     {
@@ -1046,18 +1051,16 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
-                        "type": "integer",
+                        "type": "string",
                         "description": "Category",
                         "name": "category",
                         "in": "query",
@@ -1109,15 +1112,13 @@ const docTemplate = `{
                         "type": "integer",
                         "description": "Page number",
                         "name": "page",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     },
                     {
                         "type": "integer",
                         "description": "Page limit",
                         "name": "limit",
-                        "in": "query",
-                        "required": true
+                        "in": "query"
                     }
                 ],
                 "responses": {
@@ -1436,7 +1437,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/users/{userId}/statistics": {
+        "/api/v1/users/{userId}/statics": {
             "get": {
                 "security": [
                     {
@@ -1970,7 +1971,10 @@ const docTemplate = `{
                     "type": "string"
                 },
                 "destinations": {
-                    "$ref": "#/definitions/itineraries.Destination"
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/itineraries.Destination"
+                    }
                 },
                 "end_date": {
                     "type": "string"
@@ -2024,10 +2028,13 @@ const docTemplate = `{
         "itineraries.LeaveCommentRequest": {
             "type": "object",
             "properties": {
+                "author_id": {
+                    "type": "string"
+                },
                 "content": {
                     "type": "string"
                 },
-                "id": {
+                "itinerary_id": {
                     "type": "string"
                 }
             }
@@ -2035,7 +2042,7 @@ const docTemplate = `{
         "itineraries.LeaveCommentResponse": {
             "type": "object",
             "properties": {
-                "athor_id": {
+                "author_id": {
                     "type": "string"
                 },
                 "content": {

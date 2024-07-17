@@ -60,8 +60,8 @@ func (h *Handler) SendMessageUser(ctx *gin.Context) {
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
-// @Param page query int true "Page number"
-// @Param limit query int true "Page limit"
+// @Param page query int false "Page number"
+// @Param limit query int false "Page limit"
 // @Success 200 {object} communication.ListMessageResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
@@ -150,13 +150,13 @@ func (h *Handler) AddTravelTips(ctx *gin.Context) {
 // @Accept json
 // @Security ApiKeyAuth
 // @Produce json
-// @Param page query int true "Page number"
-// @Param limit query int true "Page limit"
-// @Param category query int true "Category"
+// @Param page query int false "Page number"
+// @Param limit query int false "Page limit"
+// @Param category query string true "Category"
 // @Success 200 {object} communication.GetTravelTipsResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
-// @Router /api/v1/travel-tips/{tipId} [get]
+// @Router /api/v1/travel-tips/ [get]
 func (h *Handler) GetTravelTips(ctx *gin.Context) {
 	var req communication.GetTravelTipsRequest
 	// Get 'page' query parameter and convert it to int32
@@ -212,7 +212,7 @@ func (h *Handler) GetTravelTips(ctx *gin.Context) {
 // @Success 200 {object} communication.GetUserStaticsResponse
 // @Failure 400 {object} models.Errors
 // @Failure 500 {object} models.Errors
-// @Router /api/v1/users/{userId}/statistics [get]
+// @Router /api/v1/users/{userId}/statics [get]
 func (h *Handler) GetUserStatics(ctx *gin.Context) {
 	userId := ctx.Param("userId")
 	req := &communication.GetUserStaticsRequest{UserId: userId}

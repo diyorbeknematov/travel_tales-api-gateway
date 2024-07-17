@@ -11,7 +11,7 @@ import (
 type Config struct {
 	HTTP_PORT         string
 	ACCESS_TOKEN      string
-	USER_SERVICE_PORT int
+	USER_SERVICE_PORT string
 	CONTENT_SERVICE_PORT string
 }
 
@@ -23,9 +23,9 @@ func Load() Config {
 	config := Config{}
 
 	config.HTTP_PORT = cast.ToString(coalesce("HTTP_PORT", "passwrod"))
-	config.CONTENT_SERVICE_PORT = cast.ToString(coalesce("CONTENT_SERVICE_PORT", "50050"))
+	config.CONTENT_SERVICE_PORT = cast.ToString(coalesce("CONTENT_SERVICE_PORT", "50051"))
 	config.ACCESS_TOKEN = cast.ToString(coalesce("ACCESS_TOKEN", "postgres"))
-
+	config.USER_SERVICE_PORT = cast.ToString(coalesce("USER_SERVICE_PORT", "50050"))
 	return config
 }
 
