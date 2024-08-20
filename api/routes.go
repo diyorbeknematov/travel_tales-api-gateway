@@ -14,7 +14,6 @@ import (
 // @title Auth Service API
 // @version 1.0
 // @description This is a sample server for Auth Service.
-// @host localhost:8080
 // @securityDefinitions.apikey ApiKeyAuth
 // @in header
 // @name Authorization

@@ -52,46 +52,26 @@ func (s *serviceManager) TravelDestinationService() destination.TravelDestinatio
 func NewServiceManager(conf *config.Config) (IServiceManager, error) {
 
 	connUser, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%s", conf.USER_SERVICE_PORT),
+		fmt.Sprintf("travel-auth:%s", conf.USER_SERVICE_PORT),
 		grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		return nil, err
 	}
 
-	connStory, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%s", conf.CONTENT_SERVICE_PORT),
+	connContent, err := grpc.NewClient(
+		fmt.Sprintf("travel-content:%s", conf.CONTENT_SERVICE_PORT),
 		grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		return nil, err
 	}
 
-	connItinerary, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%s", conf.CONTENT_SERVICE_PORT),
-		grpc.WithTransportCredentials(insecure.NewCredentials()))
-	if err != nil {
-		return nil, err
-	}
-
-	connDestination, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%s", conf.CONTENT_SERVICE_PORT),
-		grpc.WithTransportCredentials(insecure.NewCredentials()))
-	if err != nil {
-		return nil, err
-	}
-
-	connCommunity, err := grpc.NewClient(
-		fmt.Sprintf("localhost:%s", conf.CONTENT_SERVICE_PORT),
-		grpc.WithTransportCredentials(insecure.NewCredentials()))
-	if err != nil {
-		return nil, err
-	}
 
 	serviceManager := &serviceManager{
 		userClient:        user.NewAuthServiceClient(connUser),
-		storiesClient:     stories.NewTravelStoriesServiceClient(connStory),
-		itineraryClient:   itineraries.NewItinerariesServiceClient(connItinerary),
-		communityClient:   communication.NewCommunicationServiceClient(connCommunity),
-		destinationClient: destination.NewTravelDestinationServiceClient(connDestination),
+		storiesClient:     stories.NewTravelStoriesServiceClient(connContent),
+		itineraryClient:   itineraries.NewItinerariesServiceClient(connContent),
+		communityClient:   communication.NewCommunicationServiceClient(connContent),
+		destinationClient: destination.NewTravelDestinationServiceClient(connContent),
 	}
 
 	return serviceManager, nil

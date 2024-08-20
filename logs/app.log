@@ -338,3 +338,37 @@
 {"time":"2024-07-17T19:40:26.548935695+05:00","level":"INFO","msg":"Response sent","status":200}
 {"time":"2024-07-17T19:42:11.599604155+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
 {"time":"2024-07-17T19:42:11.608989891+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-18T14:18:52.525891649+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-07-18T14:21:44.685141808+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/"}
+{"time":"2024-07-18T14:21:44.705318855+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-18T14:37:57.952756544+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-18T14:37:57.959709526+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-18T14:38:05.022885368+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-18T14:38:05.02350954+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-07-18T14:38:13.378900134+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-07-18T14:38:13.379468849+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:13:39.903934894+05:00","level":"INFO","msg":"Server is running ... ","PORT":":8080"}
+{"time":"2024-08-20T10:15:44.493564443+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/"}
+{"time":"2024-08-20T10:15:44.502091899+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:16:16.339789479+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/users/profile"}
+{"time":"2024-08-20T10:16:16.343649688+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:16:40.881877969+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/travel-tips/"}
+{"time":"2024-08-20T10:16:40.883696551+05:00","level":"ERROR","msg":"xatolik sayohat tavsiyalarini qo'shishda","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-08-20T10:16:40.883832751+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-08-20T10:17:42.62428734+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/travel-tips/"}
+{"time":"2024-08-20T10:17:42.624450081+05:00","level":"ERROR","msg":"xatolik sayohat tavsiyalarini qo'shishda","error":"rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 127.0.0.1:50051: connect: connection refused\""}
+{"time":"2024-08-20T10:17:42.624478115+05:00","level":"INFO","msg":"Response sent","status":500}
+{"time":"2024-08-20T10:18:33.279672441+05:00","level":"INFO","msg":"Request received","method":"POST","path":"/api/v1/travel-tips/"}
+{"time":"2024-08-20T10:18:33.296787231+05:00","level":"INFO","msg":"Response sent","status":201}
+{"time":"2024-08-20T10:19:10.218847483+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/travel-tips/"}
+{"time":"2024-08-20T10:19:10.244612149+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:19:34.345834001+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/stories/"}
+{"time":"2024-08-20T10:19:34.357001785+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:19:46.08474476+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/itineraries/"}
+{"time":"2024-08-20T10:19:46.098612205+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:20:03.097619556+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/"}
+{"time":"2024-08-20T10:20:03.106542572+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:20:29.043358092+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-08-20T10:20:29.060540669+05:00","level":"INFO","msg":"Response sent","status":200}
+{"time":"2024-08-20T10:20:46.657876874+05:00","level":"INFO","msg":"Request received","method":"GET","path":"/api/v1/destinations/trending"}
+{"time":"2024-08-20T10:20:46.658948994+05:00","level":"INFO","msg":"Response sent","status":200}

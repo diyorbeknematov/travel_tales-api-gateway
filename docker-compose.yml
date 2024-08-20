@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  travel-api:
+    container_name: travel-api
+    build: .
+    ports:
+      - "8080:8080"
+    networks:
+      - travel
+
+networks:
+  travel:
+    name: travel
+    external: true
